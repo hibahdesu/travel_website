@@ -101,7 +101,7 @@ nav {
     height: auto;
     width: 20vw;
     right: 140px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 2rem;
     border-radius: 1rem 3rem 1rem 3rem;
     border: 2px solid var(--color-1);
@@ -282,17 +282,25 @@ nav ul li:hover, nav ul li.active {
         padding: 3rem 4rem;
     }
     header {
-        gap: 34rem;
+        gap: 22rem;
         padding: 4rem 3rem;
     }
     .image {
         left: 200px;
     }
     .header {
-        padding-top: 5rem;
-        font-size: 6rem;
+        padding-top: 4rem;
+        font-size: 5rem;
     }
-
+    header h1 {
+        font-size: 4rem;
+    }
+    .pragraph {
+        font-size: 1.6rem;
+    }
+    .image img {
+        width: 450px;
+    }
 }
 @media screen and (max-width: 767px){
     section {
@@ -302,21 +310,27 @@ nav ul li:hover, nav ul li.active {
         padding: 3rem 3rem;
     }
     header {
-        gap: 20rem;
+        gap: 12rem;
         padding: 4rem 3rem;
     }
     header h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .image {
         left: 100px;
+    }
+    .image img {
+        width: 400px;
     }
     nav {
         width: 50vw;
     }
     .header {
         padding-top: 4rem;
-        font-size: 5rem;
+        font-size: 3rem;
+    }
+    .pragraph {
+        font-size: 1.5rem;
     }
 }
 @media screen and (max-width: 480px){
@@ -327,7 +341,7 @@ nav ul li:hover, nav ul li.active {
         height: auto;
     }
     header {
-        gap: 10rem;
+        gap: 8rem;
         padding: 4rem 2rem;
     }
     header h1 {
@@ -337,7 +351,7 @@ nav ul li:hover, nav ul li.active {
         left: 50px;
     }
     .image img {
-        width: 400px;
+        width: 300px;
     }
     nav {
         top: 80px;
